@@ -1,0 +1,64 @@
+body {
+  margin: auto 0;
+}
+
+
+.zone {
+  border: 2px solid;
+  cursor:alias
+}
+
+
+.green {
+  background: green;
+}
+
+.main {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color:beige;
+  cursor:col-resize
+}
+
+.push {
+  margin-left: auto;
+}
+
+
+.red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: 80vh;
+  
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  display:inline-flex;
+}
+
+.box >img {
+width: 100%;
+}
+
+.cover {
+  width: 30rem;
+}
+.blue {
+  background: black;
+}
+
+.yellow {
+  background: yellow;
+}
